@@ -55,5 +55,5 @@ def sacar_dinheiro():
         print(f"⚠️ Alerta: Sobrou um valor de R$ {valor_restante},00 que não pôde ser entregue.")
 
 
-# Executa o programa
+
 sacar_dinheiro()
