@@ -1,7 +1,12 @@
 import random
+import sys
 
-escolha = input("Escolha: pedra, papel ou tesoura?")
+escolha = input("Escolha: pedra, papel ou tesoura?").lower()
 lista = ["pedra", "papel", "Tesoura"]
+
+if escolha not in lista:
+    print("escolha invalida")
+    sys.exit()
 
 def escolha_doBot():
     palavra_secreta = random.choice(lista)
